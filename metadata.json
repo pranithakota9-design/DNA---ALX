@@ -1,0 +1,6 @@
+{
+  "name": "DNA-ALX — Explainable DNA Analysis Platform",
+  "description": "Explainable DNA Sequence Analysis & Synthetic Genetic Risk Analysis Platform featuring LCS Dynamic Programming, synthetic variant annotation, and explainable ML classification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

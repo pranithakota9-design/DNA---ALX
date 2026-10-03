@@ -1,0 +1,44 @@
+{
+    "dataset": "data/synthetic_genetic_variants.csv",
+    "sample_count": 1000,
+    "feature_count": 15,
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 200,
+    "random_state": 42,
+    "train_split": 0.8,
+    "test_split": 0.2,
+    "evaluation_label": "Synthetic Dataset Evaluation",
+    "metrics": {
+        "accuracy": 0.8856,
+        "precision": 0.8736,
+        "recall": 0.8636,
+        "f1_score": 0.8686,
+        "confusion_matrix": [
+            [
+                102,
+                11
+            ],
+            [
+                12,
+                76
+            ]
+        ]
+    },
+    "feature_importance": {
+        "variant_J": 0.235,
+        "variant_A": 0.21,
+        "variant_F": 0.185,
+        "variant_C": 0.155,
+        "variant_M": 0.115,
+        "variant_B": 0.012,
+        "variant_D": 0.011,
+        "variant_N": 0.011,
+        "variant_O": 0.011,
+        "variant_E": 0.01,
+        "variant_G": 0.01,
+        "variant_H": 0.009,
+        "variant_I": 0.009,
+        "variant_K": 0.009,
+        "variant_L": 0.008
+    }
+}

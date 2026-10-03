@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DNA-ALX — Research Review Queue</title>
+  <link rel="stylesheet" href="css/cancer-analysis.css">
+  <style>
+    .queue-table th, .queue-table td { padding: 12px; }
+    .status-select { padding: 4px 8px; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 11px; }
+    .btn-update { background-color: #0d9488; color: #fff; border: none; padding: 4px 10px; border-radius: 4px; font-weight: 600; cursor: pointer; }
+    .btn-update:hover { background-color: #0f766e; }
+  </style>
+</head>
+<body>
+  <div class="disclaimer-banner">
+    <span class="badge">PROTOTYPE / RESEARCH USE ONLY</span>
+    Research Review Queue is intended for experimental triaging of candidate synthetic variants. Not for clinical review.
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-brand">DNA-ALX</div>
+    <ul class="nav-links">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="analysis.html">DNA Analysis</a></li>
+      <li><a href="variants.html">Variants</a></li>
+      <li><a href="cancer-analysis.html">Cancer Analysis</a></li>
+      <li><a href="review-queue.html" class="active">Review Queue</a></li>
+      <li><a href="reports.html">Reports</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="admin.html">Audit Logs</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <header class="page-header">
+      <h1>Research Review Queue</h1>
+      <p class="subtitle">Triaging and review of candidate sequence variants detected across analyses</p>
+    </header>
+
+    <section class="variants-section">
+      <div class="table-responsive">
+        <table class="variants-table queue-table">
+          <thead>
+            <tr>
+              <th>Variant ID</th>
+              <th>Research Priority</th>
+              <th>Current Status</th>
+              <th>Reviewer</th>
+              <th>Notes</th>
+              <th>Last Updated</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="queue-tbody">
+            <tr>
+              <td><strong>SIM_VAR_001</strong></td>
+              <td><span class="priority-badge priority-high">High</span></td>
+              <td>
+                <select class="status-select">
+                  <option selected>UNDER REVIEW</option>
+                  <option>NEW</option>
+                  <option>REVIEWED</option>
+                  <option>NEEDS MORE EVIDENCE</option>
+                </select>
+              </td>
+              <td>demo@dna-alx.local</td>
+              <td>Elevated functional disruption in simulated locus.</td>
+              <td>2026-10-03 08:15:00</td>
+              <td><button class="btn-update">Save</button></td>
+            </tr>
+            <tr>
+              <td><strong>SIM_VAR_002</strong></td>
+              <td><span class="priority-badge priority-low">Low</span></td>
+              <td>
+                <select class="status-select">
+                  <option>UNDER REVIEW</option>
+                  <option>NEW</option>
+                  <option selected>REVIEWED</option>
+                  <option>NEEDS MORE EVIDENCE</option>
+                </select>
+              </td>
+              <td>demo@dna-alx.local</td>
+              <td>Likely benign synthetic polymorphism.</td>
+              <td>2026-10-03 08:05:00</td>
+              <td><button class="btn-update">Save</button></td>
+            </tr>
+            <tr>
+              <td><strong>SIM_VAR_003</strong></td>
+              <td><span class="priority-badge priority-medium">Medium</span></td>
+              <td>
+                <select class="status-select">
+                  <option>UNDER REVIEW</option>
+                  <option selected>NEW</option>
+                  <option>REVIEWED</option>
+                  <option>NEEDS MORE EVIDENCE</option>
+                </select>
+              </td>
+              <td>unassigned</td>
+              <td>Awaiting secondary evidence inspection.</td>
+              <td>2026-10-03 08:10:00</td>
+              <td><button class="btn-update">Save</button></td>
+            </tr>
+            <tr>
+              <td><strong>SIM_VAR_010</strong></td>
+              <td><span class="priority-badge priority-high">High</span></td>
+              <td>
+                <select class="status-select">
+                  <option>UNDER REVIEW</option>
+                  <option>NEW</option>
+                  <option>REVIEWED</option>
+                  <option selected>NEEDS MORE EVIDENCE</option>
+                </select>
+              </td>
+              <td>demo@dna-alx.local</td>
+              <td>Literature evidence count low (<2 records).</td>
+              <td>2026-10-03 08:22:00</td>
+              <td><button class="btn-update">Save</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

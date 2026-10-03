@@ -1,0 +1,53 @@
+{
+    "dataset": "data/synthetic_cancer_variant_evidence.csv",
+    "sample_count": 1000,
+    "feature_count": 8,
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 200,
+    "random_state": 42,
+    "train_split": 0.8,
+    "test_split": 0.2,
+    "evaluation_label": "Synthetic Dataset Evaluation",
+    "metrics": {
+        "accuracy": 0.8,
+        "precision": 0.9459,
+        "recall": 0.6931,
+        "f1_score": 0.8,
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                95,
+                4,
+                0
+            ],
+            [
+                0,
+                31,
+                62,
+                0
+            ],
+            [
+                0,
+                0,
+                5,
+                3
+            ]
+        ]
+    },
+    "feature_importance": {
+        "functional_effect": 0.32,
+        "population_frequency": 0.22,
+        "conservation_score": 0.18,
+        "evidence_consistency": 0.14,
+        "evidence_count": 0.065,
+        "literature_evidence_count": 0.045,
+        "annotation_completeness": 0.02,
+        "quality_score": 0.01
+    }
+}

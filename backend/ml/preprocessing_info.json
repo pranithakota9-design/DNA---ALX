@@ -1,0 +1,22 @@
+{
+    "features": [
+        "variant_A",
+        "variant_B",
+        "variant_C",
+        "variant_D",
+        "variant_E",
+        "variant_F",
+        "variant_G",
+        "variant_H",
+        "variant_I",
+        "variant_J",
+        "variant_K",
+        "variant_L",
+        "variant_M",
+        "variant_N",
+        "variant_O"
+    ],
+    "target": "risk_label",
+    "scaling": "None (Binary features)",
+    "categorical_encoding": "N/A (Categorical demographics excluded from ML to prevent leakage)"
+}

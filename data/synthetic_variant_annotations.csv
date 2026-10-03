@@ -1,0 +1,25 @@
+variant_id,gene,reference_base,alternate_base,simulated_condition,simulated_significance,description
+SIM_VAR_001,SIM_GENE_A,A,G,Synthetic Condition A,Simulated Association,Demonstration variant with high artificial weight (w=2.0)
+SIM_VAR_002,SIM_GENE_B,C,T,Synthetic Condition B,Simulated Benign,Neutral simulated polymorphism for baseline control
+SIM_VAR_003,SIM_GENE_C,G,A,Synthetic Condition C,Simulated Association,Demonstration variant with moderate artificial weight (w=1.5)
+SIM_VAR_004,SIM_GENE_D,T,C,Synthetic Condition D,Simulated Benign,Simulated non-coding difference without synthetic association
+SIM_VAR_005,SIM_GENE_E,A,C,Synthetic Condition E,Simulated Modifier,Demonstration background polymorphism
+SIM_VAR_006,SIM_GENE_F,T,G,Synthetic Condition F,Simulated Association,Demonstration variant with elevated synthetic weight (w=1.8)
+SIM_VAR_007,SIM_GENE_G,C,A,Synthetic Condition G,Simulated Benign,Simulated synonymous transition
+SIM_VAR_008,SIM_GENE_H,G,T,Synthetic Condition H,Simulated Benign,Simulated non-pathogenic transversion
+SIM_VAR_009,SIM_GENE_I,A,T,Synthetic Condition I,Simulated Modifier,Simulated regulatory polymorphism
+SIM_VAR_010,SIM_GENE_J,T,A,Synthetic Condition J,Simulated Association,Demonstration variant with highest synthetic weight (w=2.2)
+SIM_VAR_011,SIM_GENE_K,C,G,Synthetic Condition K,Simulated Benign,Simulated structural variant
+SIM_VAR_012,SIM_GENE_L,G,C,Synthetic Condition L,Simulated Benign,Simulated intronic polymorphism
+SIM_VAR_013,SIM_GENE_M,A,C,Synthetic Condition M,Simulated Association,Demonstration variant with positive synthetic weight (w=1.2)
+SIM_VAR_014,SIM_GENE_N,T,G,Synthetic Condition N,Simulated Benign,Simulated silent variation
+SIM_VAR_015,SIM_GENE_O,C,T,Synthetic Condition O,Simulated Benign,Simulated neutral SNP
+SIM_VAR_016,SIM_GENE_P,A,T,Synthetic Condition P,Simulated Modifier,Demonstration test locus P
+SIM_VAR_017,SIM_GENE_Q,G,C,Synthetic Condition Q,Simulated Benign,Demonstration test locus Q
+SIM_VAR_018,SIM_GENE_R,T,A,Synthetic Condition R,Simulated Association,Demonstration secondary marker
+SIM_VAR_019,SIM_GENE_S,C,G,Synthetic Condition S,Simulated Benign,Demonstration tertiary marker
+SIM_VAR_020,SIM_GENE_T,G,A,Synthetic Condition T,Simulated Benign,Demonstration quaternary marker
+SIM_VAR_021,SIM_GENE_U,A,G,Synthetic Condition U,Simulated Association,Demonstration reserve variant U
+SIM_VAR_022,SIM_GENE_V,T,C,Synthetic Condition V,Simulated Benign,Demonstration reserve variant V
+SIM_VAR_023,SIM_GENE_W,C,A,Synthetic Condition W,Simulated Benign,Demonstration reserve variant W
+SIM_VAR_024,SIM_GENE_X,G,T,Synthetic Condition X,Simulated Modifier,Demonstration reserve variant X
